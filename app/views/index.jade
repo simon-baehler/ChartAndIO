@@ -25,6 +25,9 @@ html(lang="en")
             div(ng-controller="LineCtrl")
               h2.form-signin-heading About CRLS
                 canvas#line.chart.chart-line(chart-data='data', chart-labels='labels', chart-legend='true', chart-series='series', chart-click='onClick')
+            div(ng-controller="BarCtrl")
+              h2.form-signin-heading About CRLS
+                canvas#bar.chart.chart-bar(chart-data='data', chart-labels='labels')
 
       // mondal
       append mondal
