@@ -1,0 +1,32 @@
+extends layout
+doctype html
+html(lang="en")
+  head
+    append css
+    append js
+  append content
+    nav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#navbar", aria-expanded="false", aria-controls="navbar")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.main(href="/")
+            img(src="img/logo_min.png")
+          a.navbar-brand.main(href="questions") #{"List of questions"}
+          a.navbar-brand.main(href="http://laurent-girod.github.io") #{"About"}
+        #navbar.collapse.navbar-collapse
+    .container
+      .starter-template
+        form.form-signin
+          div(ng-app="app")
+            div(ng-controller="LineCtrl")
+              h2.form-signin-heading About CRLS
+                canvas#line.chart.chart-line(chart-data='data', chart-labels='labels', chart-legend='true', chart-series='series', chart-click='onClick')
+
+      // mondal
+      append mondal
+    // /.container
+    append footer

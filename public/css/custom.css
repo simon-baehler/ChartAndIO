@@ -1,0 +1,25 @@
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar-custom {
+    opacity: 1;
+	background-image: url("../img/footer_lodyas.png");
+    background-repeat: repeat-x;
+	border-bottom: 1px solid transparent;
+}
+
+.body {
+  background-image: url("../img/geometry.png");
+  background-repeat: repeat;
+}
+
+.navbar-brand {
+  float: left;
+  height: 70px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 25px;
+}
+

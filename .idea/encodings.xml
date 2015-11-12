@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/public/css/bootstrap.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/signin.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/starter-template.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/Chart.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/angular-chart.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/crls_angular.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/fonctions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/js/moustache.js" charset="UTF-8" />
+  </component>
+</project>
